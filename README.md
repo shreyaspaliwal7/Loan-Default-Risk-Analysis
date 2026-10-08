@@ -18,7 +18,7 @@ This project implements a complete data pipeline: generating realistic loan reco
 ## Entity-Relationship (ER) Diagram
 
 ```mermaid
-erdiagram
+erDiagram
     BORROWERS ||--o{ LOANS : "holds"
     LOANS ||--|| REPAYMENT_STATUS : "tracks"
 
